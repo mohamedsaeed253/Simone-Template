@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Simone</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="position-relative">
+    <!--                 Block of Home Page                       -->
+    <header class="vh-100">
+      <nav class="position-fixed w-100">
+        <div class="row navbar">
+          <div class="col-md-2 col-sm-5 pe-0">
+            <div class="logo d-flex align-items-center h-100">
+              <img src="images/image01.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-2">
+            <div class="menu d-flex align-items-center h-100">
+              <ul class="toggle d-flex w-100 justify-content-center m-0 p-0">
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">What I Do</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#client">Cleint</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-5 ps-0">
+            <div class="icons d-flex align-items-center w-100 h-100">
+              <ul class="d-flex w-100 justify-content-end m-0 ps-0">
+                <input onclick="showNav()" type="checkbox" id="show-toggle" />
+                <li>
+                  <label for="show-toggle"
+                    ><i class="fa-solid fa-bars menu-bar ps-0"></i
+                  ></label>
+                </li>
+                <input onclick="closeNav()" type="checkbox" id="close-toggle" />
+                <li>
+                  <label for="close-toggle"
+                    ><i class="fa-solid fa-xmark close ps-0"></i
+                  ></label>
+                </li>
+                <li><i class="fa-brands fa-twitter twitter"></i></li>
+                <li><i class="fa-brands fa-facebook-f facebook"></i></li>
+                <li><i class="fa-brands fa-dribbble dribble"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="info d-flex flex-column justify-content-center align-items-center text-center text-white"
+      >
+        <div>
+          <p>Welcome</p>
+          <h3><span class="typed"></span></h3>
+          <p>based in Los Angeles, California.</p>
+          <button>Hire Me</button>
+        </div>
+      </div>
+      <div class="fixed-arrow" onclick="goTop()">
+        <i class="fa-solid fa-chevron-up"></i>
+      </div>
+      <a href="#about"
+        ><i class="fa-solid fa-chevron-down text-white position-absolute"></i
+      ></a>
+    </header>
+    <!--                 The End of Home Page                       -->
+
+    <!--                 Block of About Page                       -->
+    <section id="about">
+      <div
+        class="section-title d-flex flex-column align-items-center position-relative"
+      >
+        <h1>About Me</h1>
+        <div class="title top-50 start-50 translate-middle">
+          <p>Know Me More</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-sm-12 i-am">
+            <h2>I'm <span class="">Simone Olivia,</span> a Web Developer</h2>
+            <p>
+              I help you build brand for your business at an affordable price.
+              Thousands of clients have procured exceptional results while
+              working with our dedicated team. when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book.
+            </p>
+            <p>
+              Delivering work within time and budget which meets client's
+              requirements is our moto. Lorem Ipsum has been the industry's
+              standard dummy text ever when an unknown printer took a galley.
+              Lorem Ipsum has been the industry's standard dummy text ever when
+              an unknown printer took a galley.
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-data">
+            <ul class="list-style-2">
+              <li><span class="fw-600 me-2">Name:</span>Simone Olivia</li>
+              <li>
+                <span class="fw-600 me-2">Email:</span
+                ><a href="mailto:chat@simone.com">chat@simone.com</a>
+              </li>
+              <li><span class="fw-600 me-2">Age:</span>28</li>
+              <li>
+                <span class="fw-600 me-2">From:</span>Los Angeles, California
+              </li>
+            </ul>
+            <button>Download CV</button>
+          </div>
+          <div class="col-lg-11 col-sm-12">
+            <div class="container">
+              <div class="row text-center my-5">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="numbers">
+                    <p>10+</p>
+                    <p>Years Experiance</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="numbers">
+                    <p>250+</p>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="numbers">
+                    <p>650+</p>
+                    <p>Projects Done</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="numbers">
+                    <p>38</p>
+                    <p>Get Awards</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                 The End Of About Page                       -->
+
+    <!--                 Block of Services Page                       -->
+    <section id="services">
+      <div
+        class="section-title d-flex flex-column align-items-center position-relative"
+      >
+        <h1>Services</h1>
+        <div class="title top-50 start-50 translate-middle">
+          <p>What I Do?</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-11 col-sm-12">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-sm-12 d-flex my-4">
+                  <div class="icon"><i class="fa-solid fa-palette"></i></div>
+                  <div class="pref">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Lisque persius interesset his et, in quot quidam
+                      persequeris vim, ad mea essent possim iriure.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex my-4">
+                  <div class="icon"><i class="fa-solid fa-display"></i></div>
+                  <div class="pref">
+                    <h3>Web Design</h3>
+                    <p>
+                      Lisque persius interesset his et, in quot quidam
+                      persequeris vim, ad mea essent possim iriure.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex my-4">
+                  <div class="icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                  <div class="pref">
+                    <h3>UI/UX Design</h3>
+                    <p>
+                      Lisque persius interesset his et, in quot quidam
+                      persequeris vim, ad mea essent possim iriure.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex my-4">
+                  <div class="icon"><i class="fa-solid fa-paintbrush"></i></div>
+                  <div class="pref">
+                    <h3>App Design & Develop</h3>
+                    <p>
+                      Lisque persius interesset his et, in quot quidam
+                      persequeris vim, ad mea essent possim iriure.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex my-4">
+                  <div class="icon">
+                    <i class="fa-sharp fa-solid fa-chart-area"></i>
+                  </div>
+                  <div class="pref">
+                    <h3>Business Analysis</h3>
+                    <p>
+                      Lisque persius interesset his et, in quot quidam
+                      persequeris vim, ad mea essent possim iriure.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex my-4">
+                  <div class="icon">
+                    <i class="fa-sharp fa-solid fa-bullhorn"></i>
+                  </div>
+                  <div class="pref">
+                    <h3>SEO Marketing</h3>
+                    <p>
+                      Lisque persius interesset his et, in quot quidam
+                      persequeris vim, ad mea essent possim iriure.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                 The End Of Services Page                       -->
+
+    <!--                 Block of Resume Page                       -->
+    <section id="resume">
+      <div
+        class="section-title d-flex flex-column align-items-center position-relative"
+      >
+        <h1>Summary</h1>
+        <div class="title top-50 start-50 translate-middle">
+          <p>Resume</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xs-12">
+            <div class="boxes">
+              <h3>My Education</h3>
+              <div class="box">
+                <p>2000 - 2004</p>
+                <h4>Computer Science</h4>
+                <p><span>International University</span></p>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+              <div class="box">
+                <p>2005 - 2008</p>
+                <h4>Bachelor Degree</h4>
+                <p><span>University of California</span></p>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+              <div class="box">
+                <p>2009 - 2012</p>
+                <h4>Master Degree</h4>
+                <p><span>Harvard University</span></p>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <div class="boxes">
+              <h3>My Experience</h3>
+              <div class="box">
+                <p>2012 - 2013</p>
+                <h4>Jr. UI UX Designer</h4>
+                <p><span>Themeforest</span></p>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+              <div class="box">
+                <p>2014 - 2016</p>
+                <h4>Jr. Product Designer</h4>
+                <p><span>Dribbble</span></p>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+              <div class="box">
+                <p>2017 - 2019</p>
+                <h4>Product Designer</h4>
+                <p><span>Adobe</span></p>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 progress-section">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12"><h3>My Skills</h3></div>
+                <div class="col-md-6">
+                  <div class="boxes ps-0 py-0">
+                    <div class="progres">
+                      <div class="d-flex justify-content-between">
+                        <h4>Web Design</h4>
+                        <h4>65%</h4>
+                      </div>
+                      <div class="progress-par web-design"></div>
+                    </div>
+                    <div class="progres">
+                      <div class="d-flex justify-content-between">
+                        <h4>HTML/CSS</h4>
+                        <h4>95%</h4>
+                      </div>
+                      <div class="progress-par html-css"></div>
+                    </div>
+                    <div class="progres">
+                      <div class="d-flex justify-content-between">
+                        <h4>JavaScript</h4>
+                        <h4>80%</h4>
+                      </div>
+                      <div class="progress-par javascript"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="boxes ps-0 py-0">
+                    <div class="progres">
+                      <div class="d-flex justify-content-between">
+                        <h4>React JS</h4>
+                        <h4>70%</h4>
+                      </div>
+                      <div class="progress-par react"></div>
+                    </div>
+                    <div class="progres">
+                      <div class="d-flex justify-content-between">
+                        <h4>Angular Js</h4>
+                        <h4>60%</h4>
+                      </div>
+                      <div class="progress-par angular"></div>
+                    </div>
+                    <div class="progres">
+                      <div class="d-flex justify-content-between">
+                        <h4>Bootstrap</h4>
+                        <h4>99%</h4>
+                      </div>
+                      <div class="progress-par bootstrap"></div>
+                    </div>
+                  </div>
+                </div>
+                <button>Download CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                 The End Of Resume Page                       -->
+
+    <!--                 Block of Portfolio Page                       -->
+    <section id="portfolio">
+      <div
+        class="section-title d-flex flex-column align-items-center position-relative"
+      >
+        <h1>Portfolio</h1>
+        <div class="title top-50 start-50 translate-middle">
+          <p>My Work</p>
+        </div>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">Photos</a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="row portfolio-images flex-column justify-content-srart">
+          <div class="col-lg-4 col-md-6 col-sm-6 my-3">
+            <div class="div">
+              <div class="img-container">
+                <a href="#">
+                  <img src="images/image03.jpg" alt="" />
+                  <div
+                    class="layer d-flex justify-content-center align-items-center text-center"
+                  >
+                    <div>
+                      <h4>YouTube Video</h4>
+                      <p>Category</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 my-3">
+            <div>
+              <div class="img-container">
+                <a href="#">
+                  <img src="images/image06.jpg" alt="" />
+                  <div
+                    class="layer d-flex justify-content-center align-items-center text-center"
+                  >
+                    <div>
+                      <h4>Detailed Project</h4>
+                      <p>Category</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 my-3">
+            <div>
+              <div class="img-container">
+                <a href="#">
+                  <img src="images/image04.jpg" alt="" />
+                  <div
+                    class="layer d-flex justify-content-center align-items-center text-center"
+                  >
+                    <div>
+                      <h4>Vimeo Video</h4>
+                      <p>Category</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 my-3">
+            <div>
+              <div class="img-container">
+                <a href="#">
+                  <img src="images/image09.jpg" alt="" />
+                  <div
+                    class="layer d-flex justify-content-center align-items-center text-center"
+                  >
+                    <div>
+                      <h4>Detailed Project</h4>
+                      <p>Category</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 my-3">
+            <div>
+              <div class="img-container">
+                <a href="#">
+                  <img src="images/image05.jpg" alt="" />
+                  <div
+                    class="layer d-flex justify-content-center align-items-center text-center"
+                  >
+                    <div>
+                      <h4>Mockups Design</h4>
+                      <p>Category</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 my-3">
+            <div>
+              <div class="img-container">
+                <a href="#">
+                  <img src="images/image07.jpg" alt="" />
+                  <div
+                    class="layer d-flex justify-content-center align-items-center text-center"
+                  >
+                    <div>
+                      <h4>Detailed Project</h4>
+                      <p>Category</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 my-3">
+            <div>
+              <div class="img-container">
+                <a href="#">
+                  <img src="images/image08.jpg" alt="" />
+                  <div
+                    class="layer d-flex justify-content-center align-items-center text-center"
+                  >
+                    <div>
+                      <h4>Detailed Project</h4>
+                      <p>Category</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                 THe End of portifolio Page                       -->
+
+    <!--                 Block of CLient Page                       -->
+    <section id="client">
+      <div
+        class="section-title d-flex flex-column align-items-center position-relative"
+      >
+        <h1>Testimonial</h1>
+        <div class="title top-50 start-50 translate-middle">
+          <p>Client Speak</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="card">
+              <div class="client-data d-flex">
+                <div class="div">
+                  <img src="images/image10.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Dennis Jacques</h5>
+                  <p>User from USA</p>
+                </div>
+              </div>
+              <div class="client-message">
+                <p>
+                  "Easy to use, reasonably priced simply dummy text of the
+                  printing and typesetting industry. Quidam lisque persius
+                  interesset his et, in quot quidam possim iriure."
+                </p>
+              </div>
+              <div class="rate">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="card">
+              <div class="client-data d-flex">
+                <div class="div">
+                  <img src="images/image11.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Patrick Cary</h5>
+                  <p>Freelancer from USA</p>
+                </div>
+              </div>
+              <div class="client-message">
+                <p>
+                  "Easy to use, reasonably priced simply dummy text of the
+                  printing and typesetting industry. Quidam lisque persius
+                  interesset his et, in quot quidam possim iriure."
+                </p>
+              </div>
+              <div class="rate">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="client-pages d-flex justify-content-center my-2">
+            <!-- <i class="fa-regular fa-circle-dot mx-1"></i>
+            <i class="fa-solid fa-circle"></i> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                 The End of Client Page                       -->
+
+    <!--                 Block of Contact Page                       -->
+    <section id="contact">
+      <div
+        class="section-title d-flex flex-column align-items-center position-relative"
+      >
+        <h1>Contact</h1>
+        <div class="title top-50 start-50 translate-middle">
+          <p>Get in Touch</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row contact flex-row-reverse">
+          <div class="col-lg-9 col-md-8">
+            <h4>SEND US A NOTE</h4>
+            <form>
+              <div class="row con-form">
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    placeholder="Tell us more about your needs......"
+                  ></textarea>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <input
+                    class="form-control"
+                    type="submit"
+                    value="Send Message"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-3 col-md-4 address">
+            <h4>ADDRESS</h4>
+            <p>
+              4th Floor, Plot No.22,<br />
+              145 Murphy Canyon Rd. <br />
+              San Diego CA 2028
+            </p>
+            <p><i class="fa-solid fa-phone"></i> (060) 444 434 444</p>
+            <p><i class="fa-solid fa-mobile-screen"></i> (060) 555 545 555</p>
+            <p><i class="fa-sharp fa-solid fa-envelope"></i> chat@simone.com</p>
+            <div class="follow">
+              <h4>FOLLOW ME</h4>
+              <a href=""><i class="dribble fa-brands fa-dribbble"></i></a>
+              <a class="" href=""
+                ><i class="fa-brands fa-twitter twitter"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-facebook-f facebook"></i></a>
+              <a href=""><i class="fa-brands fa-google google"></i></a>
+              <a href=""><i class="fa-brands fa-github github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                 The End Of Contact Page                       -->
+
+    <footer>
+      <div class="container">
+        <div class="copyright d-flex justify-content-between">
+          <div>
+            <p>Copyright © 2022 <a href="#">Simone</a>. All Rights Reserved.</p>
+          </div>
+          <div>
+            <a href="#">Terms & Policy</a>
+            <a href="#">Disclaimer</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/defaults.js"></script>
+    <script type="module" src="js/initializer.js"></script>
+    <script type="module" src="js/html-parser.js"></script>
+    <script type="module" src="js/typed.js"></script>
+    <script type="module" src="js/animation.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
