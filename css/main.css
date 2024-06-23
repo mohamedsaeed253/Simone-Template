@@ -801,6 +801,12 @@ section {
     margin-bottom: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  #contact .title p {
+    font-size: 28px;
+  }
+}
 /* ______________________ The End Of The Block of Contact Page ______________________ */
 
 footer {
